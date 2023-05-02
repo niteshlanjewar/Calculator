@@ -1,0 +1,61 @@
+.App{
+  margin: auto;
+  width: fit-content;
+  height: 100vh;
+  display: grid;
+  flex: 4,5;
+  border: 1px solid black;
+}
+#screen{
+  position: relative;
+  height: 40vh;
+  margin: auto;
+  width: 300px;
+  /* background-color: aqua; */
+}
+#order{
+  font-size: larger;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#result{
+  font-size: larger;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+#history{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30vh;
+  overflow: auto;
+
+}
+#history {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+
+#button{
+  width: max-content;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: #2db411;
+}
+#last{
+  width: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: #2db411;
+}
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
